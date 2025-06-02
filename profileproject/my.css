@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img{
+    width:50%;
+    border-radius: 50%;
+}
+body{
+    background-color:cadetblue;
+    text-align: center;
+    height:100vh;
+}
+i{
+    
+    margin: 4px;
+}
+h2,h3,p,button
+{
+    text-align: justify;
+    margin: 10px 0px;
+}
+h2{
+    font-size: 20px;
+}
+button
+{
+    padding:10px 20px;  
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+
+}
+a{
+    text-decoration: 2px dashed blue underline;
+}
+
+#card{
+    max-width: 30vw;
+    margin: 20vh auto;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius:20px;
+    text-align:center;
+    align-items: center;
+
+}
