@@ -1,0 +1,68 @@
+
+*
+{
+    padding:0;
+    margin:0;
+}
+.nvgtn
+{
+    background-color: black;
+    color:white;
+    display:flex;
+    width:100%;
+    height:6vw;
+    align-items:center;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+
+.nvgtn img
+{
+   height: fit-content;
+    
+}
+.brandlogo
+{
+    height: 4vw;
+    width:5vw;
+}
+
+
+
+.navigation ul
+{
+list-style-type:none;
+overflow:hidden;
+background-color: red;   
+}
+.navigation li a
+{
+    
+    text-align:center;
+    
+}
+li:hover
+{
+    background-color:white;
+    color:black;
+}
+
+
+.navigation ul
+{
+    /*stify-content:center;*/
+    
+    padding:0;
+    margin:0;
+    list-style-type:0;
+text-align:center;
+}
+.navigation li
+{
+   
+    float:left;
+    padding:10px;
+    
+     text-decoration: none;
+    list-style:none;
+}
