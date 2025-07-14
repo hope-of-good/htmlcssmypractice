@@ -1,0 +1,121 @@
+:root{
+    --dark:#2660a4;
+    --light:#edf7f6;
+    --orng: #f26a4b;
+    --accent: #25a121;
+    --mustrdylw:#f2b632;
+}
+@font-face {
+    font-family: panton-normal;
+    src: url("../fonts/pantonblack.ttf");
+}
+body{
+    margin:0px;
+    padding:0px;
+    background-color: var(--dark);
+    font-family: panton-normal;
+    
+    
+}
+main{
+    width:100%;
+}
+.lgncrd{
+    width:  25vw;
+    height:55vh;
+    background-color: var(--light);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 20px;
+    border:5px black;
+    box-shadow: #cedceb;
+    padding:10px;
+}
+.logolgn img{
+    height:10vh;
+}
+
+.btn{
+    border-radius: 8px;
+    width:80px;
+    height:30px;
+    font-weight: bold;
+}
+.txtbx
+{
+    width:200px;
+    height:8%;
+    font-size:1rem;
+    margin:8px 0px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    background-color:var(--light)
+
+}
+.txtbx:focus{
+   outline:none;
+    transform: scale(1.05) ;
+}
+#login{
+    background-color: var(--dark);
+    color: var(--light);
+    font-family:sans-serif;
+    height:35px;
+    font-style:bold;
+    font-size:15px;
+    margin-bottom: 10px;
+    
+}
+#login:hover{
+    animation: ease-in 0.5;
+    background-color: var(--light);
+    color:var(--dark);
+}
+
+.links{
+    font-size:10px;
+    margin:5px;
+}
+.links:hover{
+     transform: scale(1.06);
+    
+}
+.lblinfo{
+    font-size:small;
+
+}
+.hrruler{
+    height:1px;
+    width:60%;
+}
+.miniplchldr{
+    height:15px;
+}
+.lblinfo{
+    font-family:sans-serif;
+    font-weight: bold;
+}
+#linksignup{
+    text-decoration: none;
+    font-size:medium;
+    color:var(--dark);
+    
+}
+#frgtpass{
+    text-decoration: none;
+    font-size:small;
+    color:var(--dark);
+    margin-top:3px;
+    
+}
+#frgtpass:visited{
+    color: var(--dark);
+   
+}

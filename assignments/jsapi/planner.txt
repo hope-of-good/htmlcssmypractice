@@ -1,0 +1,9 @@
+
+1. Open Weather task as per input text
+    i. create a div input text box for city
+    ii. pull js example(Use the js classes )
+        a. a function with promisses.
+        b. figure out how function works 
+        c. get the api link 
+        d. implement
+    iii. apply css

@@ -1,0 +1,128 @@
+body{
+    background-image: url(img/tile.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    display:flex;
+    flex-direction: row;
+}
+.mainwrapper{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+.btnwrp{
+    position: absolute;
+    left:80%;
+    top:45%;
+    z-index: 2;
+}
+.table{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:39vw;
+    transform: translate(-50%,-50%);
+    height: 40vh;
+    display:flex;
+    justify-content: center;
+    flex-wrap: row wrap;
+    background-image: url("img/tbl.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    z-index: 0;
+}
+
+.plate{
+    width:11%;
+    height:25%;
+    z-index: 1;
+    border-radius:100px;
+    position: absolute;
+    overflow: hidden;
+}
+.plate img{
+    max-width: auto;
+    max-height:100%;
+
+}
+.top{
+    margin-top:5%;
+    
+}
+.bottom{
+    align-self: last baseline;
+}
+#plate1{
+    margin-left:-32%;
+}
+#plate2{
+    margin-left:40%;
+    margin-top:4%;
+}
+#plate3{
+   margin-left:-34%; 
+   margin-bottom:4.7%;
+}
+#plate4
+{
+    margin-left:42.2%;
+    margin-bottom:5%;
+}
+.chair{
+    max-width:8vw;
+    z-index:-1;
+    position: absolute;
+
+}
+.chairs{
+    height:100%;
+    max-width:8vw;
+}
+#c1{
+    left:40%;
+    top:10%;
+}
+#c2{
+    left:54%;
+    top:10%;
+}
+.down{
+  transform:rotate(180deg);
+  top:68%;
+
+}
+#c3{
+    left:39.5%;
+    top:68%;
+    
+}
+#c4{
+    left:54.5%;
+   
+}
+#load {
+    height:7vh;
+    width:8vw;
+    border-radius:20px 20px;
+    font-family:cursive;   
+    font-weight: bold;
+    font-size: large;
+    padding:10px 10px;
+}
+#load:hover
+{
+    background-color:burlywood;
+    transform:scale(1.2); 
+}
+.banner
+{
+        font-family:cursive;   
+        font-size: xx-large;
+        border-radius: 20px 10px;
+        background-color:white;
+        padding:5px 10px;
+        align-self: center;
+        margin-left:42%;
+}

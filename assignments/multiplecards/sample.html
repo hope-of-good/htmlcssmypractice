@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .floor-container {
+  display: flex; /* Or use grid for more complex layouts */
+  flex-wrap: wrap;
+  width: 100%; /* Adjust as needed */
+}
+
+.hex-tile {
+  width: 100px; /* Adjust size */
+  height: 57.7px; /* Adjust height for hexagon aspect ratio */
+  background-color: white;
+  position: relative;
+  margin: 5px; /* For spacing/grout lines */
+  transform: rotateZ(30deg) skewY(30deg); /* Example for hex shape */
+  /* Or use clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
+}
+
+.hex-tile.black {
+  background-color: black;
+}
+
+    </style>
+      <div class="floor-container">
+      <div class="hex-tile white"></div>
+      <div class="hex-tile black"></div>
+       <div class="floor-container">
+      <div class="hex-tile white"></div>
+      <div class="hex-tile black"></div>
+       <div class="floor-container">
+      <div class="hex-tile white"></div>
+      <div class="hex-tile black"></div>
+       <div class="floor-container">
+      <div class="hex-tile white"></div>
+      <div class="hex-tile black"></div>
+       <div class="floor-container">
+      <div class="hex-tile white"></div>
+      <div class="hex-tile black"></div>
+       <div class="floor-container">
+      <div class="hex-tile white"></div>
+      <div class="hex-tile black"></div>
+       <div class="floor-container">
+      <div class="hex-tile white"></div>
+      <div class="hex-tile black"></div>
+       <div class="floor-container">
+      <div class="hex-tile white"></div>
+      <div class="hex-tile black"></div>
+      <!-- Repeat for desired pattern -->
+    </div>
+</body>
+</html>

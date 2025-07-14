@@ -1,0 +1,101 @@
+*{
+    margin:0px;
+}
+body{
+    background-color:rgb(81, 118, 167);
+}
+.card{
+    background-color:rgba(241, 244, 246, 0.879);
+    display:flex;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    height:30vh;
+    width:15vw;
+    border-radius: 5px;
+    border:15px black;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    /* wrap:wrap; */
+}
+.btn{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: bold;
+border-radius: 100px;
+padding:5px 10px;
+margin:2px 5px;
+}
+.btn:hover{
+    background-color: rgb(81, 118, 167);
+    color:rgba(241, 244, 246, 0.879);
+    transform:scale(1.2);
+}
+.wrpr p{
+    font-size:  3rem;;
+    font-style: bold;
+    color:rgb(81, 118, 167);
+    margin-bottom: 5px;
+}
+h2
+{
+    font-size:large;
+    font-style: bold;
+    font-family: cursive;
+    color:rgb(81, 118, 167);
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 600px) {
+        *{
+            margin:0px;
+        }
+        body{
+            background-color:rgb(81, 118, 167);
+        }
+        .card{
+            background-color:rgba(241, 244, 246, 0.879);
+            display:flex;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            position: absolute;
+            height:30vh;
+            width:80vw;
+            border-radius: 5px;
+            border:15px black;
+            flex-direction:column;
+            align-items: center;
+            justify-content:center;
+            /* wrap:wrap; */
+        }
+        .btn{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: bold;
+        border-radius: 100px;
+        padding:5px 10px;
+        margin:2px 5px;
+        }
+        .btn:hover{
+            background-color: rgb(81, 118, 167);
+            color:rgba(241, 244, 246, 0.879);
+            transform:scale(1.2);
+        }
+        .wrpr p{
+            font-size:  3rem;;
+            font-style: bold;
+            color:rgb(81, 118, 167); 
+            margin-bottom: 5px;
+        }
+        #reset{
+            margin-top:10px;
+        }
+        h2
+        {
+            font-size:medium;
+            font-style: bold;
+            font-family: cursive;
+            color:rgb(81, 118, 167);
+            margin-bottom: 5px;
+        }
+}
